@@ -1,5 +1,5 @@
 .container-header {
-  min-height: 35rem;
+  min-height: 20rem;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/header2.jpeg");
   background-attachment: fixed;
   background-position: center;
@@ -37,7 +37,7 @@
   }
   .container-header h2 {
     max-width: 20rem;
-    font-size: 3.25rem;
+    font-size: 3rem;
   }
 }
 
