@@ -205,7 +205,8 @@
   padding: 5rem 0 0;
   height: 25rem;
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
+
 }
 
 .contact-section .card {
