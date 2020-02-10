@@ -1,5 +1,5 @@
 .container-header {
-  min-height: 20rem;
+  min-height: 35rem;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/header2.jpeg");
   background-attachment: fixed;
   background-position: center;
@@ -10,12 +10,14 @@
   font-family: 'DoulosSILRegular'; 
   font-weight: normal; 
   font-style: normal; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .container-header h2 {
-  max-width: 20rem;
-  font-size: 1rem;
+    font-size: 1rem;
 } 
 
 @media (min-width: 768px) {
@@ -346,4 +348,9 @@ iframe {
 .brand-container  {
   visibility: hidden;
   }
+}
+
+.border-left {
+  border-left: 4rem;
+  border-left-color: #64a19d;
 }
