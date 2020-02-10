@@ -351,6 +351,6 @@ iframe {
 }
 
 .border-left {
-  border-left: 4rem;
-  border-left-color: #64a19d;
+  border-left: 6px solid #64a19d !important;
+
 }
