@@ -6,18 +6,33 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
-  margin: 0;
+  margin: 0;;
   font-family: 'DoulosSILRegular'; 
   font-weight: normal; 
   font-style: normal; 
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+ }
 
+ .masthead {
+   margin: 0;
+ }
+
+.header-col-right {
+  border-left: 6px solid  #64a19d;
 }
 
-.container-header h2 {
+ @media (max-width: 992px){
+.header-col-right {
+    visibility: hidden;
+  }
+ }
+
+
+/* .container-header h2 {
     font-size: 1rem;
+    
 } 
 
 @media (min-width: 768px) {
@@ -41,7 +56,7 @@
     max-width: 20rem;
     font-size: 3rem;
   }
-}
+} */
 
 #mainNav {
   min-height: 56px;
