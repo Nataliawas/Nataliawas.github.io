@@ -19,12 +19,14 @@
     href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
     rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
+  <link href="css/cookies.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="./img/mini_akrylik_bw.png" />
+
+
 
 </head>
 
-<body id="page-top">
-
+<body id="page-top" onload="checkCookie()">
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container-fluid">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">HOME</a>
@@ -57,11 +59,8 @@
 
     </div>
   </div>
-
   <header class="container-header">
-
     <div class="masthead row container-fluid h-100 text-white-50">
-
       <div class="col-lg-6 col-sm-12 text-right">
         <h1>AKRYLIK</h1>
         <h3>FRONTY MEBLOWE</h3>
@@ -71,15 +70,39 @@
         <h5>WIEDZA</h5>
         <h5>DOŚWIADCZENIE</h5>
         <h5>DESIGN</h5>
-
       </div>
-
     </div>
-
-
   </header>
+  <!-- <div class="alert alert-dismissible text-center cookiealert" role="alert">
+    <div class="cookiealert-container">
+      <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a
+        href="http://cookiesandyou.com/" target="_blank">Learn more</a>
+      <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close"> I agree </button>
+    </div>
+  </div> -->
+  <!-- <div class="container">
+      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#cookieModal">
+        See Cookies
+      </button>  
+    </div> -->
 
-
+  <div class="modal fade" id="cookieModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="notice d-flex justify-content-between align-items-center">
+            <div class="cookie-text">&#x1F36A; Ta strona wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę
+              na ich wykorzystywanie oraz zapisywanie.&#x1F36A; </div>
+            <div class="d-flex flex-column flex-lg-row">
+              <a href="#a" class="btn btn-primary btn-sm" data-dismiss="modal">I accept</a>
+              <!-- <a href="#a" class="btn btn-secondary btn-sm" data-dismiss="modal">Learn More</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <section id="about" class="about-section text-center">
 
     <div class="container">
@@ -326,7 +349,8 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="js/grayscale.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+  <script src="js/cookies.js"></script>
 </body>
 
 </html>
