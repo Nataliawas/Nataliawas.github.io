@@ -29,35 +29,6 @@
   }
  }
 
- 
-/* .container-header h2 {
-    font-size: 1rem;
-    
-} 
-
-@media (min-width: 768px) {
-  .container-header h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .container-header {
-    height: 100vh;
-    padding: 0;
-  }
-  .container-header h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
-  }
-  .container-header h2 {
-    max-width: 20rem;
-    font-size: 3rem;
-  }
-} */
-
 #mainNav {
   min-height: 56px;
   background-color: #fff;
