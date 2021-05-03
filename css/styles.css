@@ -297,11 +297,7 @@ footer {
   height: 20rem !important;
 }
 
-iframe {
-  width: 400px;
-  height: 300px;
-  border:0;
-}
+
 
 iframe {
   width: 400px;
@@ -339,4 +335,15 @@ iframe {
 .border-left {
   border-left: 6px solid #64a19d !important;
 
+}
+
+.sticky-container {
+	position: fixed;
+	top: 50%;
+	right: 10px;
+	width: auto;
+	height: auto;
+	z-index: 9999;
+	margin-top: 10px;
+  text-align: center;
 }
