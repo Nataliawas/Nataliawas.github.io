@@ -298,6 +298,10 @@ footer {
   /* height: 20rem; */
 }
 
+.img-logo {
+  width: 5rem;
+}
+
 .container-handle {
   height: 20rem !important;
 }
