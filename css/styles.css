@@ -290,20 +290,32 @@ footer {
 
 .img-brand {
   width: 20rem;
+  /* height: 20rem; */
+}
 
+.img-niem {
+  width: 12rem;
+  /* height: 20rem; */
 }
 
 .container-handle {
   height: 20rem !important;
 }
 
+.video-container {
+  display: flex;
+  justify-content: center;
 
+}
 
+.video-description {
+  display: flex;
+  align-self: center;
+}
 iframe {
-  width: 400px;
+  width: 100%;
   height: 300px;
   border:0;
-
 }
 
 @media (max-width: 1024px) {
@@ -320,7 +332,8 @@ iframe {
   align-items: center;
   margin: 0;
   padding: 0;
-  background-color: #dfe6e9
+  background-color: #dfe6e9;
+  height: 200px;
 
   
 }
